@@ -1,9 +1,11 @@
-package pong;
+package com.softwaresocy.pong.objects;
 
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Rectangle;
 import java.util.Random;
+
+import com.softwaresocy.pong.main.Game;
 
 public class Ball {
 

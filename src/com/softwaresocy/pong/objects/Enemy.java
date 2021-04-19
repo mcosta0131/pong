@@ -1,7 +1,9 @@
-package pong;
+package com.softwaresocy.pong.objects;
 
 import java.awt.Color;
 import java.awt.Graphics;
+
+import com.softwaresocy.pong.main.Game;
 
 public class Enemy {
 

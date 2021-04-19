@@ -1,4 +1,4 @@
-package pong;
+package com.softwaresocy.pong.main;
 
 import java.awt.Canvas;
 import java.awt.Color;
@@ -10,6 +10,10 @@ import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 
 import javax.swing.JFrame;
+
+import com.softwaresocy.pong.objects.Ball;
+import com.softwaresocy.pong.objects.Enemy;
+import com.softwaresocy.pong.objects.Player;
 
 public class Game extends Canvas implements Runnable,KeyListener{
 
